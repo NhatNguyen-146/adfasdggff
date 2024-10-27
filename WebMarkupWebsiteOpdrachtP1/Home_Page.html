@@ -1,0 +1,101 @@
+<DOCTYPE html!>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta author="Nhat Nguyen" />
+        <link rel="stylesheet" href="./css/Home_Page.css" />
+        <link rel="stylesheet" href="./css/MainStyleFile.css" />
+
+    </head>
+
+    <body>
+        <header>
+            <img class="Logo_Website" src="./img/LogoWebsite.png" title="View Hoorn logo"
+                alt="company View Hoorn black with white text and a blue background" />
+            <nav>
+
+                <ul>
+                    <li> <a href="Home_Page.html"> Home </a> </li>
+                    <li> <a href="Restaurants.html"> Restaurants </a> </li>
+                    <li> <a href="History_And_Culture.html"> Kunst en Cultuur </a> </li>
+                    <li> <a href="Events.html"> Evenementen </a> </li>
+                    <li> <a href="Recreation.html"> Recreatie </a> </li>
+                    <li class="contact"> <a href="Contact_Page.html"> Contact </a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="Hero_Place">
+                <img id="Hero_Website" src="./img/Hoorn-Hero-V2.jpg" title="View Hoorn Hero"
+                    alt="afbeelding Hoorn hero">
+                <section class="Hero_Text">
+                    <h1> View Hoorn </h1>
+                    <h2> Bekijk wat je kan doen in Hoorn </h2>
+                </section>
+            </section>
+
+            <section class="grid_Container_Home">
+                <article>
+                    <section class="section_image">
+                        <img src="./img/De-Beijaard-Hoorn.jpg" title="De Beijaard Hoorn" alt="De Beijaard Hoorn">
+                    </section>
+                    <section class="section_text">
+                        <h5> Restaurants </h5>
+                        <p> Ontdenk wat voor verschillende restaurants er in Hoorn te ontdekken zijn! </p>
+                        <button> <a href="Recreation.html"> Lees meer </a> </button>
+                    </section>
+
+                </article>
+
+                <article>
+                    <section class="section_image">
+                        <img src="./img/Park-Schouwburg-Hoorn.jpg" title="Park Schouwburg Hoorn"
+                            alt="Park Schouwburg Hoorn">
+                    </section>
+                    <section class="section_text">
+                        <h5> Kunst en Cultuur </h5>
+                        <p> Bekijk kunstwerken in de verschillende Musea in Hoorn, of geniet van verschillende
+                            voorstellingen in theaters! </p>
+                        <button> <a href="History_And_Culture.html"> Lees meer </a> </button>
+                    </section>
+                </article>
+
+                <article>
+                    <section class="section_image">
+                        <img src="./img/Kermis-Hoorn.jpg" title="Kermis Hoorn" alt="Kermis Hoorn">
+                    </section>
+                    <section class="section_text">
+                        <h5> Evenementen </h5>
+                        <p> Bekijk de jaarlijkse evenementen die in Hoorn gehouden worden! </p>
+                        <button> <a href="Events.html"> Lees meer </a> </button>
+                    </section>
+                </article>
+
+                <article>
+                    <section class="section_image">
+                        <img src="./img/Sportcentrum-Hoorn.jpg" title="Sportcentrum Hoorn" alt="Sportcentrum Hoorn">
+                    </section>
+                    <section class="section_text">
+                        <h5> Recreatie </h5>
+                        <p> Bekijk wat voor recreatieve mogelijkheden er in Hoorn zijn! </p>
+                        <button> <a href="Recreation.html"> Lees meer </a> </button>
+                    </section>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <img class="Logo_Website" src="./img/LogoWebsite.png" title="View Hoorn logo"
+                alt="company View Hoorn black with white text and a blue background" />
+            <p> View Hoorn 2024 &copy; </p>
+            <ul>
+                <li> <a href="https://policies.google.com/privacy?hl=en-US"> Privacy policy </a> </li>
+                <li> <a href="Contact_Page.html"> Contact </a> </li>
+            </ul>
+        </footer>
+
+    </body>
+
+    </html>

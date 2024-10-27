@@ -1,0 +1,94 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    width: 50%;
+    margin: 100px 0 100px 100px;
+    height: 100%;
+}
+
+aside > img {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    width: 50%;
+    margin: 100px 100px 100px 0;
+    background-color: var(--primary-color);
+}
+
+article > p {
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-text-regular);
+    text-indent: 35%;
+    padding: 1rem;
+
+}
+
+article > form {
+    margin: 0 5%;
+    border: solid double var(--primary-color-dark);
+    font-family: var(--font-family-raleway);
+    font-size: var(--font-text-regular);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article > form > label {
+    flex: 1 1 45%;
+    margin: 10px 0;
+    font-size: var(--font-text-regular);
+}
+
+article > form > select,
+article > form > input {
+    flex: 1 1 45%;
+    background-color: var(--primary-color-light);
+    color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;    
+}
+
+article > form > textarea#message {
+    flex: 1 1 100%;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color-light);
+    color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;    
+}
+
+article > form > button {
+    text-align: center;
+    font-size: var(--font-text-regular);
+    font-family: var(--font-family-raleway);
+    background-color: var(--accent-color-1);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    position: relative; 
+    margin-top: 10px;
+    float: right;
+    width: 100%;
+}
+
+article > form > button:hover {
+    background-color: var( --accent-color-2);
+}
+
+
+
